@@ -714,7 +714,9 @@ span {
     section {
         padding: 10rem 3% 2rem;
     }
-
+    html, body {
+        overflow-x: hidden;
+    }      
     .home .profession-container .profession-box {
         right: -20%;
     }
@@ -724,8 +726,9 @@ span {
     }
 
     .home-img img {
-        max-width: 400px;
+        display: none;
     }
+    
 }
 
 @media (max-width: 991px) {
@@ -757,11 +760,7 @@ span {
     }
 
     .home-img img {
-        width: 27em;
-        height: 27em;
-        position: absolute;
-        right: 5em;
-        bottom: 0;
+        display: none;
     }
 
     .footer {
