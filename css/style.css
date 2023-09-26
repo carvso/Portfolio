@@ -198,7 +198,26 @@ section {
     color: var(--main-color);
     border-color: var(--main-color);
 }
-
+.contact{
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+.cta-hero{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.bx-right-top-arrow-circle{
+    position: relative;
+    top: .1em;
+    left: .5em;
+    font-size: 1.2em;
+}
+.contact:hover{
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
 .home .profession-container {
     position: absolute;
     top: 50%;
