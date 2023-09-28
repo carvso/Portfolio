@@ -200,7 +200,7 @@ section {
 }
 .contact-me{
     background: transparent;
-    color: red;
+    color: var(--main-color);
     border-color: var(--main-color);
 }
 .cta-hero{
