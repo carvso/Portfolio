@@ -934,7 +934,10 @@ span {
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
     }
-
+    .home .cv{
+        display: none;
+    }
+    
     .about {
         flex-direction: column-reverse;
         text-align: center;
