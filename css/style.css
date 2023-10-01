@@ -892,7 +892,16 @@ span {
         left: 0;
         width: 100%;
     }
-
+    .cta-hero .cv{
+        display: none;
+    }
+    .cta-hero{
+        display: flex;
+        justify-content: center;
+    }
+    .home-content, h1{
+        letter-spacing: .1em;
+    }
     .home .profession-box .profession {
         padding: 0 13px;
         left: auto;
@@ -933,9 +942,6 @@ span {
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
-    }
-    .home .cv{
-        display: none;
     }
     
     .about {
